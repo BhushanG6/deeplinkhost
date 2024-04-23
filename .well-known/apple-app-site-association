@@ -3,7 +3,7 @@
        "apps": [],
        "details": [
            {
-               "appID": "org.reactjs.native.example.SteigenHealthApp",
+               "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
                 "paths": [ "*" ]
            }
        ]

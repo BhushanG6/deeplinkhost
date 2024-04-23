@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Health app</title>
-    <script>
-      function redirectByMobileOS() {
-        console.log("redirectByMobileOS from link to go on the mobile app");
-        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        if (/android/i.test(userAgent)) {
-          console.log("found android device");
-          window.location.href =
-            "[https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter]";
-        }
-        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-          console.log("found iOS device");
-          window.location.href =
-            "[https://apps.apple.com/in/app/call-of-duty-mobile/id1287282214]";
-        }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health app</title>
+  <script>
+    function redirectByMobileOS() {
+      console.log("redirectByMobileOS from link to go on the mobile app");
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      if (/android/i.test(userAgent)) {
+        console.log("found android device");
+        window.location.href = "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter";
       }
-    </script>
-  </head>
-  <body onload="redirectByMobileOS()">
-    <header>
-      <h1>Health app</h1>
-    </header>
-    <!-- Your other content here -->
-  </body>
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        console.log("found iOS device");
+        window.location.href = "https://apps.apple.com/in/app/call-of-duty-mobile/id1287282214";
+      }
+    }
+  </script>
+</head>
+<body onload="redirectByMobileOS()">
+  <header>
+    <h1>Health app</h1>
+  </header>
+  <!-- Your other content here -->
+</body>
 </html>

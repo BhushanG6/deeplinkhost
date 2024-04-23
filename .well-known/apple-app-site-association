@@ -5,7 +5,11 @@
            {
                "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
                 "paths": [ "/app" ]
-           }
+           },
+           {
+            "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
+             "paths": [ "*" ]
+        }
        ]
    }
 }

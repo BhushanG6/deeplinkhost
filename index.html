@@ -8,13 +8,13 @@
     <script>
         function redirectByMobileOS() {
           console.log("redirectByMobileOS from link to go on the mobile app")
-            // var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            // if (/android/i.test(userAgent)) {
-            //     window.location.href = "[link-for-android]";
-            // }
-            // if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            //     window.location.href = "[link-for-iphone]";
-            // }
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                window.location.href = "[link-for-android]";
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = "[link-for-iphone]";
+            }
         }
     </script>
 </head>

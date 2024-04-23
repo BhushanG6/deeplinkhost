@@ -1,15 +1,19 @@
 {
-   "applinks": {
-       "apps": [],
-       "details": [
-           {
-               "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
-                "paths": [ "/app" ]
-           },
-           {
-            "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
-             "paths": [ "*" ]
-        }
-       ]
-   }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
+        "paths": [
+          "/app,/app/*"
+        ]
+      },
+      {
+        "appID": "ZL9DDXABC9.org.reactjs.native.example.SteigenHealthApp",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
 }

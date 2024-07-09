@@ -3,13 +3,13 @@
     "apps": [],
     "details": [
       {
-        "appID": "org.reactjs.native.example.MyChatProject",
+        "appID": "ZL9DDXABC9.com.example.MyChatProject",
         "paths": [
           "/app,/app/*"
         ]
       },
       {
-        "appID": "org.reactjs.native.example.MyChatProject",
+        "appID": "ZL9DDXABC9.com.example.MyChatProject",
         "paths": [
           "*"
         ]

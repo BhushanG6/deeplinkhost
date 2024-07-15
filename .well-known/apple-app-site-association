@@ -3,13 +3,13 @@
     "apps": [],
     "details": [
       {
-        "appID": "ZL9DDXABC9.org.reactjs.native.example.MyChatProject",
+        "appID": "ZL9DDXABC9.com.bhushan.GraphQLSWiftUi",
         "paths": [
           "/app,/app/*"
         ]
       },
       {
-        "appID": "ZL9DDXABC9.org.reactjs.native.example.MyChatProject",
+        "appID": "ZL9DDXABC9.com.bhushan.GraphQLSWiftUi",
         "paths": [
           "*"
         ]

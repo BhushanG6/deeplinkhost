@@ -5,7 +5,7 @@
       {
         "appID": "L5D8VVV9PV.com.truefit.smeeple.ios",
         "paths": [
-          "/app,/app/*"
+          "*"
         ]
       },
       {
